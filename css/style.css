@@ -483,10 +483,13 @@ img {
 }
 
 .footer-section-title {
+    font-size: 16px;
     font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: white;
-    width: 96px;
     margin-bottom: 16px;
+
 }
 
 .social-icon {
@@ -523,9 +526,9 @@ img {
     align-items: center;
 
 }
-
+.footer-section-link:focus,
 .footer-section-link:hover {
-    background-color: #404BBF;
+    background-color: #31d0aa;
 }
 
 .separate-text {
